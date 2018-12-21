@@ -1,2 +1,3 @@
-# AspNetCore.Hosting
-Qred.AspNetCore.Hosting extensions
+# AspNetCore.Hosting.Abstractions
+
+Qred.AspNetCore.Hosting.Abstractions extensions
