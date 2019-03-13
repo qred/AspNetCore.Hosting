@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <VersionPrefix>0.1.0</VersionPrefix>
+    <VersionPrefix>0.1.1</VersionPrefix>
     <VersionSuffix></VersionSuffix>
 
     <Version Condition=" '$(VersionSuffix)' != '' ">$(VersionPrefix)-$(VersionSuffix)</Version>
@@ -13,7 +13,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageProjectUrl>https://github.com/qred/AspNetCore.Hosting.Abstractions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/qred/AspNetCore.Hosting.Abstractions</RepositoryUrl>
-    <PackageReleaseNotes>Initial release of Qred .net core hosting abstractions.</PackageReleaseNotes>
+    <PackageReleaseNotes>Should consider environments Test and Testing the same.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -7,7 +7,8 @@ namespace Qred.AspNetCore.Hosting
   {
     public static bool IsTest(this IHostingEnvironment hostingEnvironment)
     {
-      return hostingEnvironment.IsEnvironment("Test");
+      return hostingEnvironment.IsEnvironment("Test")
+            || hostingEnvironment.IsEnvironment("Testing");
     }
   }
 }
